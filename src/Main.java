@@ -38,6 +38,12 @@ public class Main {
                     else
                         System.out.println("Composite");
                     break;
+                case 4:
+                    Problem4 pr4 = new Problem4();
+                    System.out.println("Input num");
+                    n = scanner.nextInt();
+                    System.out.println(pr4.factorial(n));
+                    break;
             }
         }
 

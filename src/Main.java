@@ -50,6 +50,14 @@ public class Main {
                     n = scanner.nextInt();
                     System.out.println("Fibonacci Number - " + pr5.fibonacciNum(n));
                     break;
+                case 6:
+                    Problem6 pr6 = new Problem6();
+                    System.out.println("Input num a");
+                    int a = scanner.nextInt();
+                    System.out.println("Input num n");
+                    n = scanner.nextInt();
+                    System.out.println(a + " power of " + n + " = " + pr6.pow(a, n));
+                    break;
             }
         }
 

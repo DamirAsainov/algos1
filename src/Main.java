@@ -44,6 +44,12 @@ public class Main {
                     n = scanner.nextInt();
                     System.out.println(pr4.factorial(n));
                     break;
+                case 5:
+                    Problem5 pr5 = new Problem5();
+                    System.out.println("Input num");
+                    n = scanner.nextInt();
+                    System.out.println("Fibonacci Number - " + pr5.fibonacciNum(n));
+                    break;
             }
         }
 

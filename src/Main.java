@@ -80,6 +80,13 @@ public class Main {
                         System.out.println("Yes");
                     else
                         System.out.println("No");
+                case 9:
+                    System.out.println("Input k");
+                    a = scanner.nextInt();
+                    System.out.println("Input n");
+                    n = scanner.nextInt();
+                    Problem9 pr9 = new Problem9();
+                    System.out.println("binomial coefficient - " + pr9.binomialCoeff(a, n));
 
             }
         }

@@ -58,6 +58,20 @@ public class Main {
                     n = scanner.nextInt();
                     System.out.println(a + " power of " + n + " = " + pr6.pow(a, n));
                     break;
+                case 7:
+                    Problem7 pr7 = new Problem7();
+                    System.out.println("Input len of array");
+                    n = scanner.nextInt();
+                    System.out.println("Input array by space");
+                    arr = new int[n];
+                    for(int i = 0; i < n; i++){
+                        arr[i] = scanner.nextInt();
+                    }
+                    arr = pr7.reverse(n, arr);
+                    for(int i = 0; i < n;i++)
+                        System.out.print(arr[i] + " ");
+                    System.out.println();
+                    break;
             }
         }
 

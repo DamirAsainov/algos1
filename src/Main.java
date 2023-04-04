@@ -80,6 +80,7 @@ public class Main {
                         System.out.println("Yes");
                     else
                         System.out.println("No");
+                    break;
                 case 9:
                     System.out.println("Input k");
                     a = scanner.nextInt();
@@ -87,7 +88,15 @@ public class Main {
                     n = scanner.nextInt();
                     Problem9 pr9 = new Problem9();
                     System.out.println("binomial coefficient - " + pr9.binomialCoeff(a, n));
-
+                    break;
+                case 10:
+                    System.out.println("Input a");
+                    a = scanner.nextInt();
+                    System.out.println("Input b");
+                    n = scanner.nextInt();
+                    Problem10 pr10 = new Problem10();
+                    System.out.println("GCD - " + pr10.GCD(a, n));
+                    break;
             }
         }
 

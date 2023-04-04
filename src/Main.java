@@ -72,6 +72,15 @@ public class Main {
                         System.out.print(arr[i] + " ");
                     System.out.println();
                     break;
+                case 8:
+                    System.out.println("Input string");
+                    String s = scanner.next();
+                    Problem8 pr8 = new Problem8();
+                    if(pr8.isNumeric(s))
+                        System.out.println("Yes");
+                    else
+                        System.out.println("No");
+
             }
         }
 

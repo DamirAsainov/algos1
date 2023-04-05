@@ -8,6 +8,13 @@ public class Problem7 {
                arr[n - 1] = temp;
                //System.out.println(arr[arr.length - n] + " " + arr[n - 1]);
                return reverse(n - 1, arr);
+
           }
+         /*
+        @ reverse - finding reverse of int array
+        @ arr - an array with int elements
+        @ n - length of array
+        @ return - returning reverse array
+     */
      }
 }

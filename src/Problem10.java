@@ -4,5 +4,11 @@ public class Problem10 {
             return b;
         else
             return GCD(b, a % b);
+         /*
+        @ GCD - finding great common divisor by Euclidean algorithm
+        @ a - integer num
+        @ n - integer num
+        @ return - returning great common divisor
+     */
     }
 }

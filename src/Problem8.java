@@ -8,5 +8,11 @@ public class Problem8 {
                 return isNumeric(s.substring(1));
             return false;
         }
+        /*
+        @ isNumeric - finding minimum num in array
+        @ arr - an array with int elements
+        @ n - length of array
+        @ return - returning min int in array
+     */
     }
 }

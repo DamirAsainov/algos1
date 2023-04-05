@@ -10,5 +10,11 @@ public class Problem1 {
             else
                 return arr[n-1];
         }
+        /*
+        @ minimumNum - finding minimum num in array
+        @ arr - an array with int elements
+        @ n - length of array
+        @ return - returning min int in array
+     */
     }
 }

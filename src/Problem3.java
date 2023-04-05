@@ -8,5 +8,10 @@ public class Problem3 {
                 return false;
         }
         return true;
+        /*
+        @ isPrimeNum - finding is it prime number
+        @ n - integer number
+        @ return - returning is it prime number (true or false)
+     */
     }
 }

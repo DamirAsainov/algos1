@@ -9,6 +9,7 @@ public class Problem9 {
         @ k - integer number
         @ n - integer number
         @ return - returning min int in array
+
      */
     }
 }

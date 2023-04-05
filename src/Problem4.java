@@ -8,6 +8,7 @@ public class Problem4 {
         @ factorial - finding n! or factorial of n
         @ n - integer number
         @ return - returning factorial of n
+
      */
     }
 }

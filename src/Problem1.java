@@ -16,5 +16,6 @@ public class Problem1 {
         @ n - length of array
         @ return - returning min int in array
      */
+
     }
 }

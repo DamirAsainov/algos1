@@ -9,6 +9,7 @@ public class Problem6 {
         @ a - integer number
         @ n - integer number
         @ return - returning product of a^n
+
      */
     }
 }

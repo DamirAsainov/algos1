@@ -11,6 +11,7 @@ public class Problem2 {
         @ arr - an array with int elements
         @ n - length of array
         @ return - returning average num in array
+
      */
     }
 }
